@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExploreApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" />
+
+    <string name="txt_home">Home</string>
+    <string name="txt_bookmark">Bookmark</string>
+
+    <string name="detail_paris">The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower.</string>
+    <string name="paris">Efeil Paris</string>
+</resources>
