@@ -5,7 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.azzam.exploreapp.DataExploreApp
 import com.azzam.exploreapp.DetailAdapter
 import com.azzam.exploreapp.R
@@ -25,7 +27,7 @@ class BookmarkFragment : Fragment() {
 
         binding.rvBookmark.apply {
             setHasFixedSize(true)
-            layoutManager = GridLayoutManager(context, 2)
+            layoutManager = LinearLayoutManager(context)
             adapter = DetailAdapter(DataExploreApp.listEifel)
         }
         return binding.root
